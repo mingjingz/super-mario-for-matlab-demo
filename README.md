@@ -1,40 +1,34 @@
-Super Mario Bros. MATLAB Demo
------------------------------------------
-Mingjing Zhang @ Simon Fraser University 
------------------------------------------
+#Super Mario Bros. MATLAB Demo
 
-What it is
-----------
+Mingjing Zhang @ Simon Fraser University 
+
 This is a short demo of World 1-1 of Super Mario Bros. The demo emulates the behavior of the original NES version as precise as my time and energy allow.
 
 There are no enemies/coins/power-ups. The bricks are not interactive.
 
 The flagpole and castle at the end of the stage are missing. The demo terminates when Mario moves out of the stage on the right.
 
-The music can be turned on before the game starts
-----------
+The music can be turned on before the game starts.
 
-Installation 
-------------
-Regular Version:
-    Put mario.m and two .mat files under the same folder.
-    Run mario.m 
-App Version:
-    Just like any all other MATLAB apps
-------------
 
-Control
--------
+
+###Installation 
+- Regular Version:
+    Put mario.m and two .mat files under the same folder. Run mario.m
+- App Version:
+    Just like any other MATLAB apps
+
+###Control
 A/D -   Left/Right
 J   -   Sprint
 K   -   Jump
--------
 
-How to Quit
--------
+
+###How to Quit
+
 1. Walk to the end of the stage, or;
 2. Close the figure window
 * WARNING: The figure window should shut down itself upon error. If it does not, then you must type 'delete(gcf)' in the command window to manually kill the figure window. 
--------
+
 
 Enjoy!
